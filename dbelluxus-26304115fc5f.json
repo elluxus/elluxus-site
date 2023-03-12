@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dbelluxus",
+  "private_key_id": "26304115fc5f4ffe012d563d96da95b3e2814995",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCipIIj0RzbaMO\neegY+RsTwVwfCdKAdZfOqYR5XuADz+072iopnMV8nl9LiWFpR4rXsoktoO2e9cAd\nFdDxANZ4Fdj7IXWAnRW3WuMIT+vKuLFoUaKfUoNEvYFRBU7c3IoiRhI9Qiczmn/y\nTZGjvSdgL715mq5EOzSLXnYiA7ZWRwPFWV2r9i0lQcZG6IJaG7OnECMIC5tJTvRX\nEKGG4MgB7J82kO47cqHhjJ76vp4QG8Hkn9+Bvmm8/pLoVGUXNLmMH0Kc9s8E7UcF\nT0yV6NPNC553evStTpqCGoWgB/hpVQGeVrXXzSe//FiG016M0agqORUWkdySHp7R\n6Qadnr+rAgMBAAECggEACjBoyqL6UlNdNW5kHh658NRxRzzj9g9ypoPRaOvzrq9u\nvPJFwA0yeL7wvcuRuwpgtsBml+m0WF2FtOBGI8FH+l0mkqyjc1uG3iYX+wD4mBMJ\nU63m5xJSxsBoK/6rrTytzXK/FM9Ir1a5uc6fQKSxEcQeV+amlvNE4sHNTSXFoIob\nH4aK3l320pQTUJ3f1ruFd7agNHpSCw76+YFdIdYEMSii1hNH3JN6QitlUm+3YCS6\n+EZ9zhZHJGgOPugLzFuSmuPuUzxsM4E+1GH595oLAXkM526fP7D9GZgYkgOXWWOD\nPxAeoM6lQ+PvDPlGEuUUg/NlatvpxmwhG5xJ4nQ77QKBgQD5AMHLqIUVt9JsJF8j\nSOmgIV1XzYnJCFxZaO+6jYZHVpKMr9dcIqzzZYr6C3yFpte9Gl6X67jG9DxbiNa8\nNqI8cqiHn1n5rjZLyFme0kUwgnnkuEaCwhvMmyvGduFq/uBErXx598mOwjSvKkeA\n5LoXPFzQi6wlR95lCf+1Z7tA1QKBgQDIAgjd+yz8Fx1lMiWyZ1jrC2DVz7R120qu\n4bkJo6+ZAc3luXf7MT8vzBha2caj43WIPTACEgtcjWCUAXWgfnhjVZxgvCYt6Mk6\nldZwwD64seW2lBhQe6UA8l2/oydFaMA9z7+YGaUZC2nXwgb1Ze1Sk7LF7APDH5j5\nn4iMaO4+fwKBgQDHR6XRukMYiI9tYQaLFLV1JH6x4JtfOsO+As+pe851lYGf+rLe\n2BmWijPZvgugY1DR1SLTbyHoiFst3qwM4aShwBnEwPGfc5+csvGWvC4HjsTDGf/E\nclkRPTahlU7+9JDEJhwy+O5kxGSps6qaK3QLWJHnjYDuLUB9mKz/n88rKQJ/d4i/\nw+tZ90/ZQaG25ejeO5uRRDfeopFtERfWfuxVBh0N8T3ndzj3iplv9Nwy28AVflcT\nWiluoOHd1pcIteLgEH4Z97Z7GvUFTv4+KyS6V6f6oiPgZDmBZA91+BKKZfE087w1\nxbGN+mnX2BseDYvdSnz7W06y8Orxgj7WXRRZTwKBgQCmEs8fTZBIzHiE7K3HMHFe\nrrZpufmIwccwhANyQ6aUKpoCyfAcWJySvuteQTsBnQfa58lMUlR0gTp+epA6m1bl\nu2nn+wcN2QufRnzlF3COhsksLYY4EnNSGA+GLh2uCtMm2sc5daPpx6raBYs9v9NZ\nsOvWIykg88D0vbTp7Bnu3Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "elluxus-atendimento-gmail-com@dbelluxus.iam.gserviceaccount.com",
+  "client_id": "111494343619334155576",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/elluxus-atendimento-gmail-com%40dbelluxus.iam.gserviceaccount.com"
+}
