@@ -24,7 +24,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Buttons/ButtonNavbar.js"  ],
+, "src/components/Buttons/ButtonNavbar.js"  ],
   "exclude": [
     "node_modules"
   ]
