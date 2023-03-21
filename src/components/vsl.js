@@ -1,9 +1,10 @@
 import ReactPlayer from 'react-player'
+import VimeoPlayer from 'react-player/vimeo'
 import Buttons from './Buttons/Button'
 
 const VSL = () => {
   return (
-    <div className="bg-gray-100 py-12 ">
+    <div className="bg-gray-100 lg:py-12 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         
@@ -18,12 +19,14 @@ const VSL = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <div className="scale-75 h-[650px] w-full">
+          <div className="scale-75 w-full h-[300px] md:h-[650px]">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              className="w-full h-full"
+              url="https://youtu.be/6_0FgEvNz08"
+              className="md:w-full md:h-full"
               width="100%"
               height="100%"
+              config={VimeoPlayer}
+              playing={true}
             />
           </div>
 
@@ -37,8 +40,8 @@ const VSL = () => {
               {/*<a href="#" className="bg-indigo-600 border border-transparent rounded-md py-3 px-8 inline-flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700">
                 Agende uma consulta hoje
               </a>*/}
-              <Buttons/>
             </div>
+            <Buttons/>
           </div>
 
 

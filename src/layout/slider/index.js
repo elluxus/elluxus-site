@@ -5,7 +5,7 @@ export const Sliderdiv = ({title,subTitle,wtsappButton}) => {
   return (
     <div className={`py-32
       ${wtsappButton? 'bg-gradient-to-l from-[#084923] to-[#D7B34C]'
-      :' bg-gradient-to-r from-[#084923] to-[#D7B34C]'}`}>
+      :' bg-gradient-to-r from-[#133333] to-[#d7b24c] '}`}>
       <div className={`container mx-auto px-6
         ${wtsappButton? 'grid justify-center':''}
       `}>
@@ -18,17 +18,17 @@ export const Sliderdiv = ({title,subTitle,wtsappButton}) => {
         
         {!wtsappButton ? 
           <div className='flex'>
-            <a className='bg-white font-bold rounded text-gray-700
-             py-4 px-6 md:py-4 md:px-8 shadow-lg uppercase tracking-wider mx-2
+            {/*<a className='bg-white font-bold rounded text-gray-700
+             py-2 px-6 md:px-8 shadow-lg uppercase tracking-wider mx-2 h-10
              hover:bg-[#D7B34C] hover:text-[#084923] 
              transtion-all ease-in duration-[0.2s]'
             >
               Produtos
-            </a>
+            </a>*/}
             <a className='bg-white font-bold rounded text-gray-700
-             py-4 px-8 shadow-lg uppercase tracking-wider mx-2
-             hover:bg-[#084923] hover:text-white
-             transtion-all ease-in duration-[0.2s]'
+             py-4 px-8 shadow-lg uppercase tracking-wider
+             hover:bg-[#D7B34C] hover:text-white
+             transtion-all ease-in duration-[0.2s] cursor-pointer'
             >
               Entre em Contato
             </a> 

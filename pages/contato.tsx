@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import {Sliderdiv} from '../src/layout/slider';
 import {FormContact}  from '../src/components/form/FormContact';
 import FrameMaps from '../src/components/googlemapsframe'
-import FooterDiv  from '../src/layout/footer/index';
+import FooterDiv  from '../src/layout/footer';
 
 const Navbar = dynamic(()=>import("../src/layout/navbar"),{ssr:false});
 

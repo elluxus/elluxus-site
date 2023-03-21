@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/imgs/projeto-2.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
+    },
     screens:{
       'sm':'640px',
       'md':'768px',
