@@ -6,7 +6,8 @@ type SheetForm = {
   email:String,
   number:String,
   message:String,
-  date:String
+  date:String,
+  ID:number
 }
 
 export default async function handler( req : NextApiRequest, res : NextApiResponse){
@@ -37,11 +38,18 @@ export default async function handler( req : NextApiRequest, res : NextApiRespon
 
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
-      range:'A1:E1',
+      range:'A1:F1',
       valueInputOption:'USER_ENTERED',
       requestBody:{
         values:[
-          [body.name,body.email,body.number,body.message,body.date]
+          [
+            body.name,
+            body.email,
+            body.number,
+            body.message,
+            body.date,
+            body.ID
+          ]
         ]
       }
 

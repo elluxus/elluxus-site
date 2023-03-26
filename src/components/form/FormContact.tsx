@@ -5,10 +5,13 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/router';
 import * as Yup from 'yup';
 
+import {v4} from 'uuid';
 
 
 export const FormContact = () => {
   
+  const sequentialId = Math.floor(Math.random() * 1000)
+
   const router = useRouter()
 
   const phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
@@ -31,7 +34,8 @@ export const FormContact = () => {
     message: Yup.string()
       .required('não deixe de mandar sua mensagem e seu endereço'),
     date: Yup.string()
-      .default(() => new Date().toLocaleDateString())
+      .default(() => new Date().toLocaleDateString()),
+    ID: Yup.number().default(()=> sequentialId)
   })
 
   async function onSubmit(){
@@ -44,7 +48,7 @@ export const FormContact = () => {
             'Accept':'application/json',
             'Content-Type':'application/json'
           },
-          body:JSON.stringify(values,null,5)
+          body:JSON.stringify(values,null,6)
         });
 
         const content = await response.json()
@@ -70,7 +74,8 @@ export const FormContact = () => {
         email:'',
         number:'',
         message:'',
-        date: new Date().toLocaleDateString()
+        date: new Date().toLocaleDateString(),
+        ID: sequentialId
       },      
       validationSchema: schemaValidation,
       onSubmit,

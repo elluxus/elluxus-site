@@ -37,12 +37,14 @@
     "react-player": "^2.12.0",
     "react-toastify": "^9.1.2",
     "styled-jsx": "^5.0.7",
+    "uuid": "^9.0.0",
     "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "^18.7.13",
     "@types/react": "^18.0.17",
     "@types/typescript": "^2.0.0",
+    "@types/uuid": "^9.0.1",
     "autoprefixer": "^10.4.12",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.2",
