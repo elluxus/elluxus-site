@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 const Navbar = dynamic(()=>import("../src/layout/navbar"),{ssr:false});
-const Vsl = dynamic(()=>import("../src/components/vsl.js"),{ssr:true});
+const Vsl = dynamic(()=>import("../src/components/vsl.js"),{ssr:false});
 
 import { Sliderdiv } from '../src/layout/heroSection';
 import Projetos from '../src/components/projects';
