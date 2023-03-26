@@ -29,7 +29,7 @@ export const FormContact = () => {
       .matches(phoneRegex,'coloque o formato certo')
       .required('o numero de celular com DDD é nescessario'),
     message: Yup.string()
-      .required('não deixe de mandar sua mensagem'),
+      .required('não deixe de mandar sua mensagem e seu endereço'),
     date: Yup.string()
       .default(() => new Date().toLocaleDateString())
   })
@@ -163,7 +163,7 @@ export const FormContact = () => {
               <div className=' w-[100%] mb-6'>
                 <label 
                   htmlFor="message" 
-                  >Sua Mensagem</label>
+                  >Deixe seu endereço com CEP e uma mensagem</label>
                 <input className= {`h-[200px] rounded border-2 border-gray
                   min-h-[160px] w-[100%] font-sans-serif p-8 leading-normal resize-none
                   ctive:border active:border-[#084526] focus:outline-none 

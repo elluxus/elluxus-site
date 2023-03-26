@@ -31,8 +31,8 @@ export default function Home() {
       <main>
         <Vsl/>
         <Sliderdiv
-          title='Transforme sua casa em um lar com os móveis planejados MVA - Qualidade e design '
-          subTitle='incomparáveis para ambientes personalizados!'
+          title='Que tal substituir seus móveis velhos e mofados por opções sofisticadas e acessíveis? Com os móveis em MVA, você pode renovar seu ambiente com estilo e economia!'
+          subTitle='Não perca mais tempo procurando - somos os únicos no mercado a oferecer móveis planejados em MVA, a opção mais sofisticada e durável para sua casa!'
           />
         <WppButton/>    
         <Projetos/>
@@ -52,10 +52,25 @@ export default function Home() {
           description={'Moveis em MDF são construidos apartir da madeira mdf, eles sujam facil, incham, e não são amigaveis ao meio ambiente..'}/>
 
         </div>
-        <div className='mx-auto md:w-1/2 bg-gray-100'>
-          <h2 className='m-2 py-4 text-justify text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
-            Tenha moveis com alta durabilidade</h2>
-          <Buttons/>
+        <div className='my-4 mx-auto w-full bg-gray-100'>
+          <h2 className=' py-4 text-justify lg:text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
+            Tenha moveis com alta durabilidade
+          </h2>
+          <h2 className='lg:w-1/2 mb-5 mx-auto text-xl text-center my-4'>
+            Renove sua casa agora e experimente a nova tendência em móveis com o MVA -  
+            <span className='text-bold text-green-600 mx-2'>
+              A opção luxuosa que cabe no seu bolso
+              </span>
+              , só aqui na Élluxus!
+            <span className='text-orange-600 mx-2'>
+            Substitua já seus móveis em MDF
+            </span> 
+            e aproveite o que há de mais sofisticado em design e durabilidade.
+          </h2>
+          <div className='mx-auto md:w-1/2 my-5'>
+            <Buttons title={'Faça já um orçamento'}/>
+
+          </div>
         </div>
         <Depoimentos/>  
         <FormContact/>

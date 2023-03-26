@@ -4,7 +4,7 @@ import Buttons from './Buttons/Button'
 
 const VSL = () => {
   return (
-    <div className="bg-gray-100 lg:py-12 ">
+    <div className="bg-gradient-to-t from-gray-100 to-white lg:py-12 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         
@@ -13,8 +13,11 @@ const VSL = () => {
           <p className="mt-2 text-justify lg:text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Descubra como nossos móveis planejados podem transformar sua casa
           </p>
-          <p className="mt-4 text-justify lg:text-center max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Neste vídeo, nosso especialista em design de interiores irá mostrar como nossos móveis planejados podem ajudar a criar o lar dos seus sonhos.
+          <p className="mt-4 text-justify  max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            Neste vídeo, você irá conhecer a 
+            nova tendência em móveis: o MVA {'(Móveis em Vidro e Alumínio)'}, 
+            que chegou para substituir o famoso MDF. Verá que os móveis em MVA são práticos, 
+            podem ser lavados e têm maior durabilidade do que os móveis em MDF.
           </p>
         </div>
 
@@ -35,15 +38,15 @@ const VSL = () => {
           <div className=" mt-10 lg:mt-0 p-8 pb-0 mb-0">
             <div className="flex text-justify lg:text-center w-full mx-auto text-3xl font-extrabold text-gray-900 sm:text-4xl">
               Transforme sua casa com nossos móveis planejados</div>
-            <p className="mx-auto text-justify lg:text-center justify-center mt-4 max-w-2xl text-xl text-gray-500">
-              Transforme sua casa em um ambiente único e personalizado com nossos móveis planejados - Entre em contato agora e solicite o seu projeto sob medida!
+            <p className="mx-auto text-justify justify-center mt-4 max-w-2xl text-xl text-gray-500">
+            Transforme sua casa em um ambiente único e personalizado com nossos móveis planejados em MVA. Entre em contato agora e solicite o seu projeto sob medida, ou faça um orçamento sem compromisso para instalar hoje mesmo seus móveis do futuro. Com os nossos móveis em MVA, sua casa será transformada em um ambiente moderno e sofisticado, no estilo de Tony Stark.
             </p>
             <div className="flex justify-center mt-8 mx-auto w-full">
               {/*<a href="#" className="bg-indigo-600 border border-transparent rounded-md py-3 px-8 inline-flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700">
                 Agende uma consulta hoje
               </a>*/}
             </div>
-            <Buttons/>
+            <Buttons title={'Quero Fazer Meu Orçamento !'}/>
           </div>
 
 

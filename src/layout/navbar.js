@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div>
-    <nav className={`flex relative justify-center bg-[#133333] shadow-md rounded
+    <nav className={`flex relative justify-center bg-[#133333] shadow-md rounded-b
     z-50 transition-all ease-in duration-[0.4s]
      h-[90px] w-full mx-auto ${navbar? 'bg-white shadow-md fixed ':
      ''}`}>
