@@ -29,11 +29,11 @@ export default function Home() {
       </Head>
       <Navbar/>
       <main>
-        <Vsl/>
         <Sliderdiv
           title='Que tal substituir seus móveis velhos e mofados por opções sofisticadas e acessíveis? Com os móveis em MVA, você pode renovar seu ambiente com estilo e economia!'
           subTitle='Não perca mais tempo procurando - somos os únicos no mercado a oferecer móveis planejados em MVA, a opção mais sofisticada e durável para sua casa!'
           />
+        <Vsl/>
         <WppButton/>    
         <Projetos/>
         <div className='flex flex-col md:flex-row mx-auto  '>
