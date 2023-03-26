@@ -36,7 +36,7 @@ export default function Home() {
           />
         <WppButton/>    
         <Projetos/>
-        <div className='flex mx-auto  '>
+        <div className='flex flex-col md:flex-row mx-auto  '>
         <FeaturedSection 
           title={'Moveis em MVA'}
           image={'/imgs/projeto-1.jpg'}
@@ -52,7 +52,9 @@ export default function Home() {
           description={'Moveis em MDF são construidos apartir da madeira mdf, eles sujam facil, incham, e não são amigaveis ao meio ambiente..'}/>
 
         </div>
-        <div className='mx-auto w-1/2 bg-gray-100'>
+        <div className='mx-auto md:w-1/2 bg-gray-100'>
+          <h2 className='m-2 py-4 text-justify text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
+            Tenha moveis com alta durabilidade</h2>
           <Buttons/>
         </div>
         <Depoimentos/>  

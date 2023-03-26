@@ -14,7 +14,7 @@ export const FeaturedSection = ({title,description,image,emoji,color})=>{
           {/* <div className="relative w-72 h-72">
           </div> */}
         </div>
-        <p className={` text-justify text-lg leading-relaxed mx-auto w-[65%]
+        <p className={` text-justify text-lg leading-relaxed mx-auto lg:w-[65%]
         bg-white p-4 rounded border-2 ${color}`}>{description}</p>
       </section>
 
