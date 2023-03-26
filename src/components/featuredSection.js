@@ -9,7 +9,7 @@ export const FeaturedSection = ({title,description,image,emoji,color})=>{
           <div 
           className="
           relative justify-center w-72 h-72 mb-10 sm:mb-0 ">
-            <Image src={image} alt="MVA" layout="fill" objectFit="cover" />
+            <Image src={image} alt={title} layout="fill" objectFit="cover" />
           </div>
           {/* <div className="relative w-72 h-72">
           </div> */}
