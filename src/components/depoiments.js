@@ -2,9 +2,10 @@ import { useState, useEffect } from 'react';
 
 const Depoimentos = () => {
   const [depoimentos, setDepoimentos] = useState([
-    { id: 1, nome: 'João', texto: 'Os móveis ficaram perfeitos, a equipe foi super profissional e atenciosa. Recomendo muito!' },
-    { id: 2, nome: 'Maria', texto: 'Fiquei muito feliz com o resultado, minha cozinha ficou linda e super funcional. Obrigada!' },
-    { id: 3, nome: 'Pedro', texto: 'Excelente trabalho, fiquei muito satisfeito com a qualidade e o prazo de entrega. Parabéns!' },
+    { id: 1, nome: 'João Guilherme', texto: 'Os móveis ficaram perfeitos, a equipe foi super profissional e atenciosa. Recomendo muito!' },
+    { id: 2, nome: 'Claudia de Souza', texto: 'Fiquei muito feliz com o resultado, minha cozinha ficou linda e super funcional. Obrigada!' },
+    { id: 3, nome: 'Pedro Henrique', texto: 'Excelente trabalho, fiquei muito satisfeito com a qualidade e o prazo de entrega. Parabéns!' },
+    { id: 4, nome: 'Juliana de Souza', texto: 'Uau , troquei o movel aqui de casa que era MDF pra MVA e é INCRIVEL kkk amei' },
   ]);
   const [currentIndex, setCurrentIndex] = useState(0);
 

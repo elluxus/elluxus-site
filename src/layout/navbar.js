@@ -1,12 +1,30 @@
-import { useState } from 'react'
+import { useState , useEffect} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [ navbar,setNavbar ] = useState(false)
+  
+  const changeBackground = ()=>{
+    if(window.scrollY >= 550) {
+      setNavbar(true)
+    }else(
+      setNavbar(false)
+    )
+  }
+
+  useEffect(()=>{
+    window.addEventListener('scroll',changeBackground)
+  },[])
+
 
   return (
-    <nav className={`flex justify-center bg-[#133333] h-[90px]  mx-auto w-full`}>
+    <div>
+    <nav className={`flex relative justify-center bg-[#133333] shadow-md rounded
+    z-50 transition-all ease-in duration-[0.4s]
+     h-[90px] w-full mx-auto ${navbar? 'bg-white shadow-md fixed ':
+     ''}`}>
 
     <div className='flex items-center mt-8 h-auto w-auto scale-50'>
       <Link href="/">
@@ -85,6 +103,7 @@ const Navbar = () => {
     </div>
       )}*/}
       </nav>
+      </div>
   )
 }
               

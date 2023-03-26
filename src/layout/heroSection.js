@@ -1,7 +1,10 @@
-import React from 'react'
+import React ,{useEffect} from 'react';
+import Link from 'next/link';
 import {AiOutlineWhatsApp} from 'react-icons/ai';
 
 export const Sliderdiv = ({title,subTitle,wtsappButton}) => {
+    
+
   return (
     <div className={`py-32
       ${wtsappButton? 'bg-gradient-to-l from-[#084923] to-[#D7B34C]'
@@ -25,16 +28,19 @@ export const Sliderdiv = ({title,subTitle,wtsappButton}) => {
             >
               Produtos
             </a>*/}
-            <a className='bg-white font-bold rounded text-gray-700
-             py-4 px-8 shadow-lg uppercase tracking-wider
-             hover:bg-[#D7B34C] hover:text-white
-             transtion-all ease-in duration-[0.2s] cursor-pointer'
-            >
-              Entre em Contato
-            </a> 
+            <Link href={'#section-target'}>
+              <button className='bg-white font-bold rounded text-gray-700
+                py-4 px-8 shadow-lg uppercase tracking-wider
+                hover:bg-[#D7B34C] hover:text-white
+                transtion-all ease-in duration-[0.2s] cursor-pointer'
+              >
+                Entre em Contato
+              </button> 
+            </Link>
           </div> : 
             <div className='flex justify-center'>
-              <a href='https://wa.me/5531999570478' target='_blank'
+              <a href='https://wa.me/5531999570478?text="Ola Gostaria de Fazer um orçamento do meu movel planejado MVA"' 
+              target='_blank'
                 className='flex justify-center bg-white font-bold rounded text-gray-700
                 shadow-lg uppercase tracking-wider px-8 py-4
                 hover:bg-[#075E54] hover:text-white 

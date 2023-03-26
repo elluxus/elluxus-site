@@ -6,7 +6,8 @@ function WppButton() {
     <>
       <a className='fixed w-12 h-12 bottom-6 right-6 rounded-full bg-[#25D366]
         z-[100] flex cursor pointer hover:bg-[#075E54]' 
-        href='https://wa.me/5531999570478' target='_blank' rel='noreferrer'>
+        href='https://wa.me/5531999570478?text="Ola Gostaria de Fazer um orçamento do meu movel planejado MVA"' 
+        target='_blank' rel='noreferrer'>
         <div className='relative left-2 top-2'>
           <AiOutlineWhatsApp className='text-white w-8 h-8'/>
         </div>
