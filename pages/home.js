@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
+const Navbar = dynamic(()=>import("../src/layout/navbar"),{ssr:false});
+const Vsl = dynamic(()=>import("../src/components/vsl.js"),{ssr:true});
 
 import { Sliderdiv } from '../src/layout/heroSection';
 import Projetos from '../src/components/projects';
@@ -12,8 +14,6 @@ import WppButton from '../src/components/Buttons/WppButton';
 import Footer from '../src/layout/footer';
 import Buttons from '../src/components/Buttons/Button';
 
-const Navbar = dynamic(()=>import("../src/layout/navbar"),{ssr:false});
-const Vsl = dynamic(()=>import("../src/components/vsl.js"),{ssr:false});
 
 export default function Home() {
   return (
